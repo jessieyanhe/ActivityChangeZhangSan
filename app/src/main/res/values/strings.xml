@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityChangeZhangSan</string>
+    <string name="change_to_second">跳转到SecondActivity</string>
+    <string name="change_to_main">返回到MainActivity</string>
+</resources>
