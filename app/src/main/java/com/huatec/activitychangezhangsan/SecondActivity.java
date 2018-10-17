@@ -63,5 +63,6 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View view) {
         Intent intent = new Intent(SecondActivity.this,MainActivity.class);
         startActivity(intent);
+        Log.d(TAG,"onClick");
     }
 }
