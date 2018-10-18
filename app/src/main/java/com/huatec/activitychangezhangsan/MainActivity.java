@@ -11,8 +11,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private final  static String TAG = "MainActivity";
     private Button button;
-
     private Button button2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,11 +47,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Log.d(TAG,"onPause");
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.d(TAG,"onPause");
-    }
 
     @Override
     public void onClick(View view) {
